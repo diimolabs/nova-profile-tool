@@ -1,10 +1,10 @@
 <?php
 
-namespace Runline\ProfileTool\Tests;
+namespace diimolabs\ProfileTool\Tests;
 
 use Illuminate\Support\Facades\Route;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Runline\ProfileTool\ToolServiceProvider;
+use diimolabs\ProfileTool\ToolServiceProvider;
 
 abstract class TestCase extends Orchestra
 {

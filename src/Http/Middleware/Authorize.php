@@ -1,10 +1,10 @@
 <?php
 
-namespace Runline\ProfileTool\Http\Middleware;
+namespace diimolabs\ProfileTool\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
-use Runline\ProfileTool\ProfileTool;
+use diimolabs\ProfileTool\ProfileTool;
 use Symfony\Component\HttpFoundation\Response;
 
 class Authorize

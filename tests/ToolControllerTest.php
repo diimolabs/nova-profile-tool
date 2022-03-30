@@ -1,9 +1,9 @@
 <?php
 
-namespace Runline\ProfileTool\Tests;
+namespace diimolabs\ProfileTool\Tests;
 
-use Runline\ProfileTool\Http\Controllers\ToolController;
-use Runline\ProfileTool\ProfileTool;
+use diimolabs\ProfileTool\Http\Controllers\ToolController;
+use diimolabs\ProfileTool\ProfileTool;
 use Symfony\Component\HttpFoundation\Response;
 
 class ToolControllerTest extends TestCase
@@ -13,7 +13,7 @@ class ToolControllerTest extends TestCase
     {
         $this->assertTrue(true);
         // $this
-        //     ->post('nova-vendor/runlinenl/nova-profile-tool')
+        //     ->post('nova-vendor/diimolabsnl/nova-profile-tool')
         //     ->assertSuccessful();
     }
 }

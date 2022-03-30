@@ -1,5 +1,5 @@
 {
-    "name": "runlinenl/nova-profile-tool",
+    "name": "diimolabsnl/nova-profile-tool",
     "description": "A tool for Laravel Nova to allow users to edit their profile data",
     "keywords": [
         "laravel",
@@ -7,12 +7,17 @@
         "tool",
         "profile"
     ],
-    "homepage": "https://github.com/runlinenl/nova-profile-tool",
+"homepage": "https://github.com/diimolabsnl/nova-profile-tool",
     "license": "MIT",
     "authors": [
         {
             "name": "Patrick Bergman",
             "email": "patrick@runline.nl",
+            "role": "Developer"
+        },
+        {
+            "name": "Javier Villatoro",
+            "email": "javier@diimo.co",
             "role": "Developer"
         }
     ],
@@ -25,18 +30,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Runline\\ProfileTool\\": "src/"
+            "diimolabs\\ProfileTool\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Runline\\ProfileTool\\Tests\\": "tests"
+            "diimolabs\\ProfileTool\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Runline\\ProfileTool\\ToolServiceProvider"
+                "diimolabs\\ProfileTool\\ToolServiceProvider"
             ]
         }
     },
