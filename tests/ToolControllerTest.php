@@ -13,7 +13,7 @@ class ToolControllerTest extends TestCase
     {
         $this->assertTrue(true);
         // $this
-        //     ->post('nova-vendor/diimolabsnl/nova-profile-tool')
+        //     ->post('nova-vendor/diimolabs/nova-profile-tool')
         //     ->assertSuccessful();
     }
 }

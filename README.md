@@ -1,7 +1,7 @@
 # A tool to let user's update their profile in Laravel Nova
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/diimolabsnl/nova-profile-tool.svg?style=flat-square)](https://packagist.org/packages/diimolabsnl/nova-profile-tool)
-[![Total Downloads](https://img.shields.io/packagist/dt/diimolabsnl/nova-profile-tool.svg?style=flat-square)](https://packagist.org/packages/diimolabsnl/nova-profile-tool)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/diimolabs/nova-profile-tool.svg?style=flat-square)](https://packagist.org/packages/diimolabs/nova-profile-tool)
+[![Total Downloads](https://img.shields.io/packagist/dt/diimolabs/nova-profile-tool.svg?style=flat-square)](https://packagist.org/packages/diimolabs/nova-profile-tool)
 
 
 When this tool is added to Nova, you can let users update their profile data without giving them access to the full
@@ -14,7 +14,7 @@ User resource under 'Resources'.
 You can install the package in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
 ```bash
-composer require diimolabsnl/nova-profile-tool
+composer require diimolabs/nova-profile-tool
 ```
 
 Next up, you must register the tool with Nova. This is typically done in the `tools` method of the `NovaServiceProvider`.

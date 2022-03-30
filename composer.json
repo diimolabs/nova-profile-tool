@@ -1,5 +1,5 @@
 {
-    "name": "diimolabsnl/nova-profile-tool",
+    "name": "diimolabs/nova-profile-tool",
     "description": "A tool for Laravel Nova to allow users to edit their profile data",
     "keywords": [
         "laravel",
@@ -7,7 +7,7 @@
         "tool",
         "profile"
     ],
-"homepage": "https://github.com/diimolabsnl/nova-profile-tool",
+"homepage": "https://github.com/diimolabs/nova-profile-tool",
     "license": "MIT",
     "authors": [
         {
